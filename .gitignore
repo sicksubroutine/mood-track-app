@@ -1,10 +1,14 @@
-# filter replit stuff
-poetry.lock
-pyproject.toml
-.replit
-replit.nix
-.upm
-venv
-.breakpoints
+# ignore ALL .log files and test files
 *.svg
 *.csv
+*.log
+
+# ignore all the replit shit
+venv/
+.breakpoints
+.replit
+.poetry.lock
+poetry.lock
+pyproject.toml
+.upm
+replit.nix
