@@ -1,0 +1,10 @@
+# filter replit stuff
+poetry.lock
+pyproject.toml
+.replit
+replit.nix
+.upm
+venv
+.breakpoints
+*.svg
+*.csv
