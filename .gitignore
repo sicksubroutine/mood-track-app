@@ -1,0 +1,14 @@
+# ignore ALL .log files and test files
+*.svg
+*.csv
+*.log
+
+# ignore all the replit shit
+venv/
+.breakpoints
+.replit
+.poetry.lock
+poetry.lock
+pyproject.toml
+.upm
+replit.nix
